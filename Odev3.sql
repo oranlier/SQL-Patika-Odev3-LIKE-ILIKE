@@ -9,4 +9,4 @@ where country LIKE '%_____n';
 --3 film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf 
 --farketmesizin 'T' karakteri içeren
 Select title FROM film 
-where title iLIKE '%t%';
+where title ILIKE '%t%t%t%t%';
